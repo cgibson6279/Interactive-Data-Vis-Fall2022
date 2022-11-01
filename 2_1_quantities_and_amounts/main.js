@@ -1,6 +1,6 @@
 /* CONSTANTS AND GLOBALS */
 const width =  window.innerWidth *.8;
-const height = 500;
+const height = 460;
 const margin = 50;
 
 /* LOAD DATA */
