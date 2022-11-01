@@ -1,0 +1,129 @@
+[
+    {
+      "Article": "Florida Man1",
+      "Source": "FOX",
+      "assumedAffliation": "R",
+      "userRating": 44,
+      "Reliability": 0.0611568866953317
+    },
+    {
+        "Article": "Florida Man2",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 72,
+        "Reliability": 0.027677574947815087
+    },
+    {
+        "Article": "Florida Man3",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 84,
+        "Reliability": 0.3938521301310648
+    },
+    {
+        "Article": "Florida Man4",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 53,
+        "Reliability": 0.5232667118810652
+    },
+    {
+        "Article": "Florida Man5",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 30,
+        "Reliability": 0.15875970916076387
+    },
+    {
+        "Article": "Florida Man6",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 3,
+        "Reliability": 0.5799991921249612
+    },
+    {
+        "Article": "Florida Man7",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 47,
+        "Reliability": 0.2587275917310502
+    },
+    {
+        "Article": "Florida Man8",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 57,
+        "Reliability": 0.8077212891321297
+    },
+    {
+        "Article": "Florida Man9",
+        "Source": "FOX",
+        "assumedAffliation": "R",
+        "userRating": 74,
+        "Reliability": 0.14643607714830464
+    },
+    {
+        "Article": "Florida Man10",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 86,
+        "Reliability": 0.6424654845845689
+    },
+    {
+        "Article": "Florida Man11",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 63,
+        "Reliability": 0.9768434146450947
+    },
+    {
+        "Article": "Florida Man12",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 42,
+        "Reliability": 0.7970342802015145
+    },
+    {
+        "Article": "Florida Man13",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 14,
+        "Reliability": 0.9363189714887602
+    },
+    {
+        "Article": "Florida Man14",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 17,
+        "Reliability": 0.2856454679971666
+
+    },
+    {
+        "Article": "Florida Man15",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 24,
+        "Reliability": 0.5319310394976412
+    },
+    {
+        "Article": "Florida Man16",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 89,
+        "Reliability": 0.5255874370655352
+    },
+    {
+        "Article": "Florida Man17",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 65,
+        "Reliability": 0.7754692090825116
+    },
+    {
+        "Article": "Florida Man18",
+        "Source": "CNN",
+        "assumedAffliation": "D",
+        "userRating": 72,
+        "Reliability": 0.9427347606609069
+    }
+]
