@@ -124,7 +124,7 @@ function draw() {
         .duration(2000)
         .attr("r", radius)
         .attr("fill", d => colorScale(d.Member))
-        .attr("cx", 500) // start dots on the left
+        .attr("cx", width) // start dots on the left
         .attr("cy", d => yScale(d.Rating)) 
         .call(sel => sel.transition()
           .duration(4000)
