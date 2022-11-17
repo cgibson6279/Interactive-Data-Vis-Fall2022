@@ -22,12 +22,12 @@
   {
     "District": "CA-03",
     "State": "CA",
-    "Party": "D",
+    "Party": "D", //Membership
     "Member of Congress": "Garamendi, John",
-    "BioID": "G000559",
-    "envScore2020": 100,
+    "BioID": "G000559", // Movie ID
+    "envScore2020": 100, // Rating
     "envScoreLifetime": 91,
-    "ideologyScore2020": 0.3334083541
+    "ideologyScore2020": 0.3334083541 // User Reliability
   },
   {
     "District": "CA-04",

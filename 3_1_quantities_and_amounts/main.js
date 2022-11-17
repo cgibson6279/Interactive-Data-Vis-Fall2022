@@ -32,7 +32,7 @@ function init() {
   yScale = d3.scaleLinear()
     .domain([0, d3.max(state.data, d=> d["Total Housing Units"])])
     .range([height - margin.bottom, margin.top])
-
+  
   draw(); // calls the draw function
 }
 
@@ -50,7 +50,20 @@ function draw() {
     .attr("width", width)
     .attr("height", height)
     .style("background-color", "#F7F1E9")
-
+    
+  
+  svg.append("g")
+    .attr("transform", `translate(${margin.left},0)`)
+    .call(yAxis);
+    
+  svg.append("g")
+    .attr("transform", `translate(0,${height - margin.bottom})`) // think this needs to be fixed to fix bar problem, but unsure how?
+    .call(xAxis)
+    .selectAll("text")
+    .attr("transform", "translate(-10,10)rotate(-90)")
+    .style("text-anchor", "end")
+    .style("font-size", 10)
+    ;
   // bars
   svg.selectAll("rect.bar")
     .data(state.data)
@@ -62,16 +75,5 @@ function draw() {
     .style("fill", "#69b3a2")
     .style("opacity", 0.5)
   
-  svg.append("g")
-    .attr("transform", `translate(${margin.left},0)`)
-    .call(yAxis);
-    
-  svg.append("g")
-    .attr("transform", `translate(0,${height - margin.bottom})`)
-    .call(xAxis)
-    .selectAll("text")
-    .attr("transform", "translate(-10,10)rotate(-90)")
-    .style("text-anchor", "end")
-    .style("font-size", 10)
-    ;
+  
 }
